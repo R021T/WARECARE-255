@@ -1,6 +1,5 @@
 import streamlit as st
 import azure.cognitiveservices.speech as speechsdk
-from azure.cognitiveservices.speech import AudioConfig
 import os
 import google.generativeai as genai
 from langchain_helper import get_few_shot_db_chain
@@ -23,7 +22,7 @@ conn = mysql.connector.connect(
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
 
-audio_config = AudioConfig(use_default_microphone=True)
+audio_config = speechsdk.AudioConfig(use_default_microphone=True)
 speech_config = speechsdk.SpeechConfig(subscription=os.getenv("SPEECH_KEY"), region="centralindia")
 speech_config.set_property(speechsdk.PropertyId.SpeechServiceConnection_InitialSilenceTimeoutMs, "9000")
 speech_config.set_property(speechsdk.PropertyId.Speech_SegmentationSilenceTimeoutMs, "2000")
