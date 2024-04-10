@@ -32,7 +32,7 @@ WareCare (255) is a web application designed to streamline warehouse management 
 ## 3. Architecture Overview <a name="architecture-overview"></a>
 The application architecture consists of two main components: the main file responsible for user interaction and the SQL query chain file for SQL query generation and validation.
 
-![Architecture Diagram]<img src="images/architecture.png" alt="System Architecture" width="250" height="250">
+<img src="images/architecture.png" alt="System Architecture" width="500" height="250">
 
 ## 4. Development Stages <a name="development-stages"></a>
 
