@@ -81,17 +81,17 @@ To run the app, follow these steps:
     streamlit run main.py
     
 
-3. <img src="images/1.png" alt="System Architecture" width="500" height="250">
+<img src="images/1.png" alt="System Architecture" width="500" height="250">
 
-When the app starts on the web, the above interface is presented to the user from which the user can interact with our voice assistant through natural language.
+3. When the app starts on the web, the above interface is presented to the user from which the user can interact with our voice assistant through natural language.
 
-4. <img src="images/3.png" alt="System Architecture" width="500" height="250">
+<img src="images/3.png" alt="System Architecture" width="500" height="250">
 
-There are 2 modes for SQL querying. If the toggle is not activated the user is denied permission to make any insertions, updations or deletions in the database as shown above.
+4. There are 2 modes for SQL querying. If the toggle is not activated the user is denied permission to make any insertions, updations or deletions in the database as shown above.
 
-5. <img src="images/2.png" alt="System Architecture" width="500" height="250">
+<img src="images/2.png" alt="System Architecture" width="500" height="250">
 
-Once access is activated, the user gets to make changes within the database. Also after each query, the user is asked for confirmation to commit changes. At this point the user can choose to rollback the changes made as well.
+5. Once access is activated, the user gets to make changes within the database. Also after each query, the user is asked for confirmation to commit changes. At this point the user can choose to rollback the changes made as well.
 
 
 ## 7. Conclusion <a name="conclusion"></a>
