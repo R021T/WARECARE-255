@@ -32,7 +32,7 @@ WareCare (255) is a web application designed to streamline warehouse management 
 ## 3. Architecture Overview <a name="architecture-overview"></a>
 The application architecture consists of two main components: the main file responsible for user interaction and the SQL query chain file for SQL query generation and validation.
 
-![Architecture Diagram](architecture_diagram.png)
+![Architecture Diagram]<img src="images/architecture.png" alt="System Architecture" width="250" height="250">
 
 ## 4. Development Stages <a name="development-stages"></a>
 
@@ -80,6 +80,19 @@ To run the app, follow these steps:
     
     streamlit run main.py
     
+
+3. <img src="images/1.png" alt="System Architecture" width="500" height="250">
+
+When the app starts on the web, the above interface is presented to the user from which the user can interact with our voice assistant through natural language.
+
+4. <img src="images/3.png" alt="System Architecture" width="500" height="250">
+
+There are 2 modes for SQL querying. If the toggle is not activated the user is denied permission to make any insertions, updations or deletions in the database as shown above.
+
+5. <img src="images/2.png" alt="System Architecture" width="500" height="250">
+
+Once access is activated, the user gets to make changes within the database. Also after each query, the user is asked for confirmation to commit changes. At this point the user can choose to rollback the changes made as well.
+
 
 ## 7. Conclusion <a name="conclusion"></a>
 WareCare (255) offers a user-friendly solution for warehouse personnel to interact with the warehouse database using natural language voice commands. By integrating advanced speech recognition, natural language understanding, and SQL query generation techniques, the application simplifies the query process and empowers users to access warehouse data efficiently.
